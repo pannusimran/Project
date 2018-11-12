@@ -7,7 +7,7 @@
 
 # 1) Introduction: What you picked and What is it ?
 
-We had Choosen to build an app called view animator, it is a modern style of application that helps us to view images in gallery in the form of animations. We incorporated various effects in a Sample 2 , which can be performed on the main app , in a way that is possible. Today, various developments in the field of application is carrie out , so we decided to have this project for our knowledge developments about the various forms of animations, that an app can perform.
+We had Choosen to build an app called view animator, it is a modern style of application that helps us to view images in gallery in the form of animations. We incorporated various effects in a Sample 2 , which can be performed on the main app , in a way that is possible. Today, various developments in the field of application is carried out , so we decided to have this project for our knowledge developments about the various forms of animations, that an app can perform.
 
 # 2) What does it do?
 
