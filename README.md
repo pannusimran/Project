@@ -1,6 +1,7 @@
 # Project
 
-PROJECT 2: View Animator
+# PROJECT 2: View Animator
+# Group    : 8
 
 # Project Communication Table Answers
 
