@@ -15,7 +15,7 @@ It is an application , which features currently basic animation styles , such as
 # 3)steps to make it work or to use it in my project.
 
 The basic steps that were involved in making the project is as follows:
-i) We created a layout of the app , that finds appealing to the user, with the help of android studio.
-ii) We had coded the images to fit to its size and perform vaious animations.(few of the codes of the animation are mentioned bellow)
+<li> i) We created a layout of the app , that finds appealing to the user, with the help of android studio.</li>
+<li> ii) We had coded the images to fit to its size and perform vaious animations.(few of the codes of the animation are mentioned bellow)</li>
 
 <a href="https://imgflip.com/gif/2mbgg0"><img src="https://i.imgflip.com/2mbgg0.gif" title="made at imgflip.com"/></a>
