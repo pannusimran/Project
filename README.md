@@ -19,3 +19,20 @@ The basic steps that were involved in making the project is as follows:
 <p> ii) We had coded the images to fit to its size and perform vaious animations.(few of the codes of the animation are mentioned bellow)</p>
 
 <a href="https://imgflip.com/gif/2mbgg0"><img src="https://i.imgflip.com/2mbgg0.gif" title="made at imgflip.com"/></a>
+
+```java
+ViewAnimator
+       .animate(image)
+            .translationY(-1000, 0)
+            .alpha(0,1)
+       .andAnimate(text)
+            .dp().translationX(-20, 0)
+            .decelerate()
+            .duration(2000)
+       .thenAnimate(image)
+            .scale(1f, 0.5f, 1f)
+            .accelerate()
+            .duration(1000)
+       .start();
+       
+```
