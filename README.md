@@ -45,8 +45,8 @@ we faced several limitation regarding , the development of different styles and 
 
 # 5) Team Structure 
 
-<li>Pooja Patel(1795000)</li>
-<li>Nutan Prakash (1794976)</li>
-<li>Sukhbir Singh (1794054)</li>
-<li>Khaja Muzamil Mohiuddin (1795609)</li>
+<li>Pooja Patel(1795000)       Did Github.</li>
+<li>Nutan Prakash (1794976)    Did Github.</li>
+<li>Sukhbir Singh (1794054)    Made Page of application.</li>
+<li>Khaja Muzamil Mohiuddin (1795609)  Did Github.</li>
 
