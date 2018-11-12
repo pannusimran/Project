@@ -42,9 +42,9 @@ ViewAnimator
 we faced several limitation regarding , the development of different styles and inputing various animation graphics. We had tried to provide text animation in the app , but it has some limitiations regarding the number of time it performs to kill the animation.
 
 
-Team Structure 
+# 5) Team Structure 
 
-Pooja Patel(1795000)
-Nutan Prakash (1794976)
-Sukhbir Singh (1794054)
-Khaja Muzamil Mohiuddin (1795609)
+<li>Pooja Patel(1795000)</li>
+<li>Nutan Prakash (1794976)</li>
+<li>Sukhbir Singh (1794054)</li>
+<li>Khaja Muzamil Mohiuddin (1795609)</li>
