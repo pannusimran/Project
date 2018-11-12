@@ -37,7 +37,86 @@ ViewAnimator
        .start();
        
 ```
+View animator Activity code:
 
+```java
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/mountain"
+            android:layout_width="match_parent"
+            android:layout_height="224dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/earth"
+            tools:ignore="ContentDescription"
+            tools:srcCompat="@drawable/earth" />
+
+        <TextView
+            android:id="@+id/percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="0.00%"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/view_animator_github"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Observe the World"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/parallel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom Animation" />
+
+        <Button
+            android:id="@+id/sequentially"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Width / Height" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+```
 # 4) Limitations if any 
 
 we faced several limitation regarding , the development of different styles and inputing various animation graphics. We had tried to provide text animation in the app , but it has some limitiations regarding the number of time it performs to kill the animation.
