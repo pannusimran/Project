@@ -117,6 +117,31 @@ View animator Activity code:
 </RelativeLayout>
 
 ```
+
+Android manifest.Xml code
+```java
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.github.florent37.sample.viewanimator"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ViewAnimatorMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+
+```
 # 4) Limitations if any 
 
 we faced several limitation regarding , the development of different styles and inputing various animation graphics. We had tried to provide text animation in the app , but it has some limitiations regarding the number of time it performs to kill the animation.
